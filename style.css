@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+      ),
+    url("cab.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;        
+    
+    width: fit-content;
+    margin: 40px;
+
+}
+
+h1 span{
+    background-color: rgb(136, 98, 167);
+    border-radius: 30px;
+    padding: 8px;
+}
+
+.bmc-img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.box{
+    width: 90%;
+    background-color: white;
+    overflow: hidden;
+    background-image: url("https://pro.regiondo.com/wp-content/uploads/2019/12/Blog_image_Destination_Marketing2.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.521);
+    padding: 30px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px dashed grey;
+    font-family: 'IBM Plex Mono', monospace;
+    }
+
+.box div{
+    overflow: hidden;
+
+}
+
+.head{
+    width: calc(98.3% / 3);
+    display: inline-block;
+    text-align: center;
+    padding: 10px ;
+    border: 2px solid aqua;
+    background-color: rgba(173, 173, 211, 0.774);
+    box-shadow: 2px 4px 0px 1px rgba(0, 0, 0, 0.336);
+}
+
+.img1{
+    background-image: url("https://static.thenounproject.com/png/3006554-200.png");
+    background-size: 33px;
+    background-repeat: no-repeat;
+    background-origin:content-box;
+    background-position-x: 90px;
+    background-position-y: -6px;
+}
+
+.img2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjTXA7X5bTKCKFF1oZNFRyfCvLqtJU4lS1OGMoKqZytKBojIiWz_eXXpxqnZBGZl1nNdE&usqp=CAU");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: 6px;
+}
+
+.img3{
+    background-image: url("https://previews.123rf.com/images/leshkasmok/leshkasmok1407/leshkasmok140700052/30016562-airport-icon.jpg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 120px ;
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+
+.from-to{
+    margin: 19px 0px;
+    padding: 1px 5px;
+    width: calc(97.4% / 4);
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(5, 31, 31);
+}
+
+.trip-type{
+    padding: 40px;
+    font-size: 20px;
+}
+
+.bt-car{
+    background-color: rgb(207, 159, 207);
+    font-family: inherit;
+    font-size: 20px;
+    
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    font-family: DroidSans-bold !important;
+    color: #20a8d9;
+    font-style: oblique ;
+    font-weight: bold;
+}
+
+.input-class{
+    padding: 8px;
+    border-radius: 6px ;    
+}
+
+.text-sub{
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+}
+
+.text-cont{
+    width: calc(99%/3);
+    display: inline-block;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: DroidSans-bold !important;
+    color: #20a8d9;
+    margin-top: 40px;
+}
+
+.sub-img{
+    /* margin: 30px; */
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+.head-img{
+    display: inline-block;
+    width: calc(96%/5);
+    /* text-align: center; */
+    vertical-align: middle;
+    
+}
+
+.sup-head-img{
+    width: fit-content;
+    display: block;
+    margin: 0px auto ;
+    padding: 0px 30px;
+    
+}
+
+.head-img p{
+    font-size: 20px;
+    font-family: cursive;
+    color: rgb(148, 194, 42);
+    font-weight: bold;
+
+}
+
+h3{
+    margin-left: 100px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}    
+
+.desc{
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+
+}
+
+.desc-head-class{
+    background-color: rgba(255, 255, 255, 0.233);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+
+
+td{
+    text-align: center;
+    padding: 4px;
+}
+
+th{
+    text-align: center;
+}
+
+table{
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+}
+
+.airport{
+    margin: 19px 0px;
+    padding: 1px 5px;
+    width: calc(96.6% / 5);
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(5, 31, 31);
+}
+
+
+
+
+
+
